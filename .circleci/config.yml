@@ -21,7 +21,7 @@ jobs:
             - "52:7a:e1:9e:3e:19:76:c4:32:40:8b:7b:c2:d3:3b:71"
       - run:
           name: Install Ansible
-          command : apk add ---update ansible
+          command : apk add --update ansible
 
       - run:
           name: Run Playbook and Configure server
